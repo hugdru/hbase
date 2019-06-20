@@ -63,7 +63,7 @@ domains:
       Replica Recovery and Resynchronization: performed by administrator
     Data Distribution:
       Data Distribution Architecture: [master-single slave]
-      Data Distribution Method: assigned key ranges to nodes
+      Data Distribution Method: [assigned key ranges to nodes]
       Automatic Data Rebalancing: [new storage triggered, data growth triggered]
       Physical Data Distribution: [single cluster, rack-aware on single cluster]
       Query Architecture: direct shard connection only (resolved in client)
@@ -71,7 +71,7 @@ domains:
       Merging Query Results from Multiple Shards: [sorted order]
     Security:
       Client Authentication: [Kerberos, SSL]
-      Server authentication: [shared keyfile]
+      Server Authentication: [shared keyfile]
       Credential Store: external file
       Role Based Security: supported
       Security Role Options: [default roles, custom roles]
